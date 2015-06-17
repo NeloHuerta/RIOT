@@ -55,9 +55,9 @@ extern "C" {
 #define LED_GREEN_GPIO      GPIO_PC2 /**< Green LED GPIO pin */
 #define LED_ORANGE_GPIO     GPIO_PC3 /**< Orange LED GPIO pin */
 
-#define LED_RED_ON          cc2538_gpio_set(LED_GREEN_GPIO)
-#define LED_RED_OFF         cc2538_gpio_clear(LED_GREEN_GPIO)
-#define LED_RED_TOGGLE      cc2538_gpio_toggle(LED_GREEN_GPIO)
+#define LED_RED_ON          cc2538_gpio_set(LED_RED_GPIO)
+#define LED_RED_OFF         cc2538_gpio_clear(LED_RED_GPIO)
+#define LED_RED_TOGGLE      cc2538_gpio_toggle(LED_RED_GPIO)
 
 #define LED_YELLOW_ON       cc2538_gpio_set(LED_YELLOW_GPIO)
 #define LED_YELLOW_OFF      cc2538_gpio_clear(LED_YELLOW_GPIO)
